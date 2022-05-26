@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:19
 WORKDIR /target-clogin
 COPY . . 
 RUN ls 
